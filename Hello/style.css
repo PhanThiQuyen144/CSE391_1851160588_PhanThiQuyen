@@ -1,0 +1,32 @@
+h1 {
+    font-size: 30px;
+    color: salmon; 
+}
+a:hover{
+    color: green;
+}
+.topnav{
+    background-color: lightblue;
+    font-size: 40px;
+}
+/* tac dong vao the a co class la topnav */
+.topnav a {
+  
+  /* overflow: hidden;  */
+  /* float: left; */
+  
+  text-align: center;
+  padding: 14px 16px;/* khoang cah toi bo dem */
+  text-decoration: none;    /* bo gach chan */
+  font-size: 17px;
+  margin: 10px; /* khoang cach tu phan tu do toi cha */
+  border: 2px solid red;
+  border-radius: 20px; /* chinh goc cong */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: khaki;
+  color: #fff;
+
+  
+
+}
+ 
