@@ -1,0 +1,102 @@
+body{
+    width: 1300px;
+    margin: 0px auto;
+    background-color: yellowgreen;
+}
+.header{
+    background-color: turquoise;
+    display: flex;
+    height: 150px;
+}
+.quicknav{
+    width: 450px;
+    /* background-color: blue; */
+    flex-direction: column; 
+    justify-content: center;
+    float: left;
+    color: white;
+   
+    
+}
+.quicknav ul li{
+    list-style-type: none;
+    float: left;
+    padding: 0px 20px;
+    border-right: 1px solid black;
+    display: block;
+}
+.quicknav ul li a {
+    text-decoration: none;
+    /* line-height: 150px; */
+    margin: 0px auto;
+}
+.branding{
+    width: 500px;
+     background-color: cadetblue; 
+    text-align: center;
+    padding-top: 15px;
+    align-items: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.utilities{
+    position: relative;
+     justify-content:center;
+    /* width: 450px; */
+    /* background-color: burlywood; */
+    /* float:right; */
+
+}
+.mainnavigation{
+    /* width: 1500px; */
+    clear: both;
+    height: 50px;
+     background-color: rgb(101, 101, 206); 
+     padding-top: 0px;
+    /* position: fixed; */
+    /* position: static; */
+   
+    /* left: 20px; */
+    list-style-type: none;
+    flex-direction: column;
+    
+
+}
+.mainnavigation ul{
+    flex-direction: column;
+}
+.mainnavigation ul li{
+    /* width: 15%; */
+    /* list-style-type: none; */
+    /* flex-direction: column; */
+    float: left;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    display: block;
+    padding: 0px 65px;
+    line-height: 50px;
+}
+.mainnavigation ul li a{
+    text-decoration: none;
+    size: 40px;
+    /*  */
+}
+.hero  hr p{
+    position: absolute;
+
+}
+.hero{
+    padding-top: 50px;
+}
+.hero img{
+    position: absolute;
+    width:100%;
+    
+    overflow: hidden;
+
+}
+.slogan{
+    clear: both;
+    background-color: chartreuse;
+}
