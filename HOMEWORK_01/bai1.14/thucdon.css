@@ -1,0 +1,10 @@
+form{
+    background-color: #def0fa;
+    /* width: 500px; */
+}
+a:hover{
+    color: red;
+}
+a{
+color: blue;
+}
