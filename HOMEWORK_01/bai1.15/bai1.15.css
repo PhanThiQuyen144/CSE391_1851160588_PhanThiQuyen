@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    border: 1px solid blue;
+    font-family: unset
+}
+ td{
+    border:  1px solid blue;
+}
+a{
+    /* color: blue; */
+    
+    
+}
+h1{
+    /* background-color: #003399; */
+    color: #ffffff;
+    text-align: center;
+}
+.title{
+    /* height: 50px; */
+    background-color: #003399;
+}
