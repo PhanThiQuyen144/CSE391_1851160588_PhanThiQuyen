@@ -1,0 +1,22 @@
+
+table, tr, td {
+    border: 1px solid black;
+    /* justify-content: center; */
+    border-collapse: collapse;
+}
+table{
+    background-color: rgb(155, 226, 155);
+    width: 500px;
+    
+}
+td{
+    color: green;
+}
+.one{
+    width:40%;
+}
+ 
+h2{
+    color: green;
+    text-align: center;
+}
