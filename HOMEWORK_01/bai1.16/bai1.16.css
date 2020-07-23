@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    
+}
+table{
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+td{
+    border: 1px solid gray;
+}
+
+/* tr{
+    width: 100%;
+    /* background-color: blueviolet; */
+/* } */ 
+.title{
+    width: 100%;
+    /* display: flex; */
+    /* background-color: rgb(132, 215, 218); */
+    height: 100%;
+}
+.title h1{
+    float: left;
+    font-size: 50px;
+    /* background-color: blueviolet; */
+    color: #006599;
+    width: 100px;
+    
+}
+.title h2{
+    width: 150px;
+    font-size: 40px;
+    /* background-color: burlywood; */
+    padding-top: 10px;
+    color: #006599;
+    float: left;
+}
+.title h3{
+    width: 150px;
+    font-size: 30px;
+    /* background-color: cadetblue; */
+    padding-top: 20px;
+    color: #006599;
+    /* padding-right: 150px; */
+    float: left;
+
+    
+}
+.titleimg{
+    float: left;
+    /* height: 100%; */
+}
+.titleimg1{
+    margin-left: 100px;
+    float: right;
+}
+.left{
+    clear: both;
+    /* width: 30%; */
+    display: block;
+    /* background-color: burlywood; */
+    border: 0px;
+}
+.left ul li {
+    color: rgb(228, 196, 196);
+    /* border: 1px solid black; */
+}
+.left ul li a{
+    color: blue;
+}
+.left ul li a:hover{
+    color: peru;
+}
+.right{
+    width: 70%;
+    /* display: block; */
+}
+.paratitle{
+    color: white;
+    background-color: #006599;
+    font-weight: bolder;
+}
+.text{
+    color: #006599;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+.one img, .two img, .three img, .four img{
+    float: left;
+}
+.one{
+    /* background-color: blueviolet; */
+    /* height: 100px; */
+}
+.paratext1{
+    /* background-color: burlywood; */
+    height: 81px;
+}
+.paratext2{
+    height: 100px;
+    /* background-color: cadetblue; */
+}
+.four a{
+    clear: both;
+    float: right;
+    
+}
+.seven ul, .eight ul, .nine ul{
+    float: left;
+    /* background-color: hotpink; */
+    margin-top: 0px;
+}
+.seven img, .eight img, .nine img{
+    float: right;
+}
+
+.eight, .nine{
+    clear: both;
+    border-top: 1px solid gray;
+}
+.nine1{
+    float: right;
+   
+    /* background-color: greenyellow; */
+}
+.nine1 {
+     clear: both;
+}
+.two, .four, .six{
+    border-top: 1px solid gray;
+}
+.four a, .nine a{
+    background-color: #cbcbd6;
+}
+
+
+
+
