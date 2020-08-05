@@ -6,6 +6,7 @@
 }
 .list-top{
     /* background-color: lightblue; */
+    
 }
 .list-top ul li a{
     /* display: flex; */
@@ -22,40 +23,85 @@
     /* background-color: lightcoral; */
     text-align: right;
 }
+.label a{
+    text-decoration: none;
+}
+.label a:hover{
+    color: chocolate !important;
+}
 .search{
     text-align: left;
 }
-.container{
-    margin-top: 20px;
+.header_logo{
+    margin-top: 8%;
 }
 .nav-main{
     margin-left: 0px;
     padding-left: 0px;
 }
-.list-nav{
-    display: flex;
-    
-}
-.has-sub{
+.has-sub, .homesp{
     /* background-color: greenyellow; */
+    border-right:  1px dotted black;
+    padding:  0px 10px;
+    font-size: 15px; 
+    font-weight: bolder;
+    margin: 0px auto;
 }
-.list-nav li{
-    /* background-color: greenyellow; */
+.has-sub:hover, .homesp:hover{
+    background-color: #003478;
+    color: white !important;
 }
-.list-nav li a{
-    color: black;
+.nav-sub{
+    background-color: #003478;
+    color: white !important;
     font-size: 15px;
-    text-decoration: none;
     
 }
-.list-nav li a:hover{
-    color: white;
+.nav-sub a:hover{
+    color: #003478 !important;
+    background-color: antiquewhite;
 }
-.list-nav li,.list-sub li {
-    text-decoration: none;
-    list-style-type: none;
+hr{
+    margin: 0px;
 }
-.list-sub li a{
-    color: white;
+.main{
+    margin: 5%;
+    display: flex;
+}
+.prev-icon{
+    background: url(http://cse.tlu.edu.vn/DesktopModules/CMSView/images/a17.png);
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.img{
+    border-left: 1px dotted black;
+}
+.news-grid-left-img h6{
+    text-align: center;
+    font-size: 16px;
+    background-color:rgba(0,0,0,0.5);
+    padding: 5px 0px;
+    opacity: 0;
+    transition: all ease 0.8s;
+
+}
+.news-grid-left-img h6 a{
     text-decoration: none;
+    color: white;
+    
+}
+.news-grid-left-img h6:hover{
+    opacity: 1;
+}
+.news-grid-left-info{
+    padding-top: 5px;
+}
+.news-grid-left-info h5 a{
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 18px;
 }
