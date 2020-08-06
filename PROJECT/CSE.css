@@ -3,6 +3,10 @@
     justify-content: center;
     text-align: center;
     margin: 0px !important;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px 0px; 
+    font-weight: 600;
 }
 .list-top{
     /* background-color: lightblue; */
@@ -15,7 +19,7 @@
 }
 .list-top ul li{
     float: left;
-    padding-left: 2px;
+    padding-left: 10px;
     /* text-transform: none; */
     list-style-type: none;
 }
@@ -31,6 +35,48 @@
 }
 .search{
     text-align: left;
+    /* background-color: white; */
+    margin-left: 10px;
+    width: 15%;
+    height: 20px;
+    display: flex;
+}
+input{
+    width: 100%;
+    border: 0px;
+    
+}
+.iconsearch{
+    border: 0px;
+    background-color: white;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+/* ẩn TLU */
+@media(max-width:739px){
+	.hide-on{
+		display: none;
+	}
+}
+/* navbar */
+	 /* @media (min-width: 992px)
+	{
+		.container {
+			width: 970px;
+		}
+	} */
+.container {
+	max-width: 960px;
+	padding-right: 15px;
+	padding-left: 10px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+
+}
+nav{
+    margin: 0px auto;
 }
 .header_logo{
     margin-top: 8%;
@@ -39,10 +85,11 @@
     margin-left: 0px;
     padding-left: 0px;
 }
+
 .has-sub, .homesp{
     /* background-color: greenyellow; */
-    border-right:  1px dotted black;
-    padding:  0px 10px;
+    border-right:  1px dotted #808080;;
+    padding:  0px 5px;
     font-size: 15px; 
     font-weight: bolder;
     margin: 0px auto;
@@ -78,7 +125,7 @@ hr{
     overflow: hidden;
 }
 .img{
-    border-left: 1px dotted black;
+    border-left: 1px dotted #808080;;
 }
 .news-grid-left-img h6{
     text-align: center;
@@ -105,3 +152,4 @@ hr{
     font-weight: 550;
     font-size: 18px;
 }
+/* bên CSS phần footer m thêm cái nào thì ghi ở cuối phần CSS của t nhá */
