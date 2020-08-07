@@ -65,3 +65,13 @@ $(document).ready(function(){
 //         $(".nav-sub").show(fast)
 //     })
 // })
+
+
+// bar responsive-chưa xong
+// $(document).ready(function () {
+//     $("#respon-bar").click(function(){
+//         $(".navbar").slideToggle();
+//         $(".dropdown-menu a ").css("display","none");
+//     });
+//     $()
+// });

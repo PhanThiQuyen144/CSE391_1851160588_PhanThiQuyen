@@ -257,12 +257,14 @@ html, li, p {
 		min-width: 200px;
 		background: blue;
 		display: none;
+		
 	}
 	.nav-sub ul li{
 		display: block;
 	}
 	.list-nav li:hover .nav-sub ul{
 		display: block;
+	
 	}
 	#bars{
 		font-size: 18px;
@@ -450,4 +452,24 @@ html, li, p {
 	}
 	footer .footer-bot p a:hover{
 		color: orangered;
+	}
+
+	@media screen and (max-width: 640px){
+		.nav-footer-link {
+			border-right: 0;
+			width: 49%;
+		}
+	}
+	@media screen and (max-width: 640px){
+		footer .footer-bot {
+			padding-bottom: 15px;
+			padding-top: 15px;
+		}
+	}
+	@media screen and (max-width: 640px){
+		footer .footer-bot .footer-bot-img {
+			display: block;
+			float: none;
+			margin: 0 auto;
+		}
 	}

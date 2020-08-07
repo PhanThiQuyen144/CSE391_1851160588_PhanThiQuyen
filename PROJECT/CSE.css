@@ -152,4 +152,154 @@ hr{
     font-weight: 550;
     font-size: 18px;
 }
-/* bên CSS phần footer m thêm cái nào thì ghi ở cuối phần CSS của t nhá */
+/*rep: Ờ */
+/* footer */
+footer {
+    background-color: #003478;
+    border-top: solid 2px #808080;
+    color: #fff;
+    font-size: 12px;
+    padding: 30px 0 10px 0;
+    
+}
+
+.it-nav-footer {
+    overflow: hidden;
+}
+.nav-footer-link {
+    border-right: dotted 1px white;
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+    margin: 0;
+    min-height: 80px;
+    padding: 0 5px;
+    vertical-align: middle;
+    width: 24.51282%;
+    
+}
+@media (max-width: 767px){
+    .nav-footer-link {
+        width: 24%;
+        
+    }
+}
+
+.nav-footer-link li {
+    display: block;
+    margin-bottom: auto;
+    padding-left: 7px;
+    position: relative;
+}
+footer .ui-link-white {
+    font-size: 12px;
+    color: #fff;
+}
+.nav-footer-link li a,a:visited{
+    text-decoration: none;
+    outline: 0 none;
+    
+    transition: all 0.5s;
+    border: 0 none;
+
+}
+.nav-footer-link li a:hover{
+    color: orangered;
+}
+.nav-footer-link li:after {
+    color: #fff;
+    content: "-";
+    display: inline-block;
+    font-size: 12px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+}
+footer .footer-bot {
+    overflow: hidden;
+    padding-top: 20px;
+}
+.footer-bot-img{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+footer .footer-bot p {
+    overflow: hidden;
+    padding-top: 6px;
+    font-size: 12px;
+    color: #fff;
+    margin: 0 0 15px 0;
+}
+footer .footer-bot .footer-bot-img {
+    margin-right: 22px;
+}
+footer .footer-bot p:last-child {
+    margin-bottom: 10px;
+}
+footer .footer-bot p a,p a:visited {
+    line-height: inherit;
+}
+footer .footer-bot p a:hover{
+    color: orangered;
+}
+@media screen and (max-width: 640px){
+    .nav-footer-link {
+        border-right: 0;
+        width: 49%;
+    }
+}
+@media screen and (max-width: 640px){
+    footer .footer-bot {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width: 640px){
+    footer .footer-bot .footer-bot-img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+}
+/* bar responsive-chưa xong */
+/* #respon-bar{
+    background: black;
+    height: 30px;
+    left: 0;
+    color: white;
+    font-size: 24px;
+    padding: 0.1em;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    width: 35px;
+    z-index: 1000;
+    display: none;
+}
+@media (max-width: 959px){
+    #respon-bar {
+        display: inline-block;
+    }
+}
+@media(max-width:768px){
+    #respon-bar{
+        display: block;
+    }
+    .navbar{
+        display: none;
+        position: static;
+        background: pink;
+        
+    }
+    .navbar-nav li  {
+        display: block;
+    }
+    .dropdown-menu a {
+        position: static;
+        background: pink;
+
+    }
+} */
+
