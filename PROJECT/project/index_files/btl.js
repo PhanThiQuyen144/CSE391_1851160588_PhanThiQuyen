@@ -6,14 +6,22 @@
 
 //     });
 // });
+// $(document).ready(function () {
+//     $(".menu-bar").click(function () { 
+//         $(".form-inline").toggleClass("search-bar");
+//     });
+// });
+// $(document).ready(function () {
+//     $(".icon").click(function(){
+//         $(".list-nav").slideToggle();
+//         $(".list-sub ").css("display","none");
+//     });
+// });
+
 $(document).ready(function () {
-    $(".menu-bar").click(function () { 
-        $(".form-inline").toggleClass("search-bar");
+    $("#respon-bar").click(function(){
+        $(".navbar").slideToggle();
+        $(".dropdown-menu a ").css("display","none");
     });
-});
-$(document).ready(function () {
-    $(".icon").click(function(){
-        $(".list-nav").slideToggle();
-        $(".list-sub ").css("display","none");
-    });
+    $()
 });

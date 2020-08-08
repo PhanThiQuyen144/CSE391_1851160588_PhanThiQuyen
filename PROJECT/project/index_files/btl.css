@@ -266,7 +266,7 @@ html, li, p {
 		display: block;
 	
 	}
-	#bars{
+	/* #bars{
 		font-size: 18px;
 		padding: 4px;
 		color: #fff;
@@ -294,7 +294,46 @@ html, li, p {
 			background: pink;
 
 		}
+	} */
+	#respon-bar{
+		background: black;
+		height: 30px;
+		left: 0;
+		color: white;
+		font-size: 24px;
+		padding: 0.1em;
+		cursor: pointer;
+		position: fixed;
+		top: 0;
+		width: 35px;
+		z-index: 1000;
+		display: none;
 	}
+	@media (max-width: 959px){
+		#respon-bar {
+			display: inline-block;
+		}
+	}
+	@media(max-width:768px){
+		#respon-bar{
+			display: block;
+		}
+		.navbar{
+			display: none;
+			position: static;
+			background: pink;
+			
+		}
+		.navbar-nav li  {
+			display: block;
+		}
+		.dropdown-menu a {
+			position: static;
+			background: pink;
+	
+		}
+	} 
+	
 	nav ul li a{
 		text-decoration: none;
 		display: block;
