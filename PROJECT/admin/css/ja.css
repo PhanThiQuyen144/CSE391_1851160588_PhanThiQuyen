@@ -12,6 +12,7 @@
 	margin: 0; /* all lists */
 	padding: 0;
 	float: left;
+	
 }
 
 #ja-cssmenu ul {
@@ -35,7 +36,7 @@
 	z-index: 99;
 	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
 	height: auto;
-	w\idth: 15.9em;
+	width: 15.9em;
 }
 
 #ja-cssmenu li ul ul {
@@ -106,7 +107,8 @@
 /* 2nd level and above */
 #ja-cssmenu li ul {
 	border: 1px solid #2B6484;
-	background: url(../../images/grad2.gif) repeat-x bottom #5192C3;
+	/* background: url(../../images/grad2.gif) repeat-x bottom #5192C3; */
+	background: url(../../images/grad2.gif) repeat-x bottom #003478;
 }
 
 #ja-cssmenu li ul li {
