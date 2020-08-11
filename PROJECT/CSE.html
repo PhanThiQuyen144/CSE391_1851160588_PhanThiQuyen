@@ -14,10 +14,10 @@
         <form action="/" method="post" enctype="multipart/form-data">
             <div class="row text-white globalnav fixed-top" style="background-color: #003478; margin: 0px; float: right;">
                 
-                <!-- bar responsive- chưa xong
+                <!-- bar responsive -->
                 <div id="respon-bar">
-                    <i class="fas fa-bars" id="bars1"></i>     
-                </div> -->               
+                    <i class="fas fa-bars" id="bars1" style="position: absolute; top: 3px; left: 7px;"></i>     
+                </div>               
  
                 <div class="label" >
                     <a href="http://www.tlu.edu.vn/" class="text-white hide-on">Trường Đại học Thủy Lợi -TLU</a>
@@ -34,30 +34,43 @@
                             <a href="http://cse.tlu.edu.vn/Register?returnurl=http%3a%2f%2fcse.tlu.edu.vn%2f" class="text-white"> Register</a>
                         </li>
                         <li>|</li>
-                        <li class="hide-on1 "> Ngôn ngữ:</li>
+                        
                         <li>
-                           
-                           <a href=""><img src="../PROJECT/images/icon-lang-vi.png" alt=""></a> 
-                           <a href=""><img src="../PROJECT/images/icon-lang-en.png" alt=""> </a> 
+                            Ngôn ngữ:
+                           <a href="http://cse.tlu.edu.vn/#"><img src="http://cse.tlu.edu.vn/cse/assets/images/icons/icon-lang-vi.png" alt=""></a> 
+                           <a href="http://cse.tlu.edu.vn/#"><img src="http://cse.tlu.edu.vn/cse/assets/images/icons/icon-lang-en.png" alt=""> </a> 
                         </li>
                     </ul>
                 </div>
                 <div class="search " >
                     <input type="text" value="" placeholder="Tìm kiếm" class="fa-search hide-on " style="margin-left: 5%;" >
-                    <a href="http://cse.tlu.edu.vn/chi-tiet/s"> <i class="fa fa-search text-secondary iconsearch" aria-hidden="true"></i> </a> 
+                    <div id="search1"> <i class="fa fa-search text-secondary iconsearch" style="cursor: pointer;" aria-hidden="true"></i> </div> 
                     <!-- <input type="submit" value=""> -->
+                </div>
+                <!-- search mobile -->
+                <div class="search-mobile">
+                    <div class="btn-close " >
+                        <a href="#" class="hide"><i class="fas fa-times"></i></a>
+                        
+                    </div>
+                    <div class="search-frame hide">
+                        <input type="text" placeholder="Tìm kiếm" class="hide">
+                        <a href="http://cse.tlu.edu.vn/chi-tiet/s"class="hide"><i class="fa fa-search text-secondary" aria-hidden="true" style="cursor: pointer;"></i></a>
+                        
+                    </div>                 
                 </div>
             </div>
             <div class="header" style="border-bottom: 1px solid rgb(183, 183, 211);" >
                 <div class="container" >
-                    <div class="header_logo" >
+                    <div class="header_logo " >
                         <h1>
-                            <a href="http://cse.tlu.edu.vn/">
+                            <a href="http://cse.tlu.edu.vn/" >
                                 <img src="../PROJECT/images/logo.jpg" alt="" width="547px"class="img-fluid" height="82px">
                             </a>
                         </h1>
                     </div> 
-                    <div class="title hide-on ">
+                    <div class="title  ">
+                        <!-- hide-on -->
                        <nav class="navbar navbar-expand-sm navbar-light"  >
                            <a class="homesp navbar-brand" href="http://cse.tlu.edu.vn">TRANG CHỦ</a>
                            <!-- <button class="d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -170,6 +183,74 @@
                            </div>
                        </nav>
                     </div>
+                    <!--navbar-mobile  -->
+                 <!-- <div class="nav-overlay">
+
+                </div> -->
+                <nav class="navbar-mobile fixed-top">
+                    <div class="nav-mobile-close">
+                        <i class="fas fa-times" style="position: absolute; top: 3px; left: 7px;"></i>
+                      </div>
+                    <ul class="list-nav-mobile">
+                        <li ><a href="" class="nav-link-mobile">TRANG CHỦ</a></li>
+                        <li><a href=""class="nav-link-mobile">GIỚI THIỆU</a>
+                            <ul class="list-sub-mobile">
+                                <li><a href="http://cse.tlu.edu.vn/logo-cua-khoa"class="sub-link-mobile">Logo khoa CNTT</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/loi-chao-mung"class="sub-link-mobile">Lời chào mừng</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/co-cau-to-chuc"class="sub-link-mobile">Tổ chức</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/hop-tac-quoc-te"class="sub-link-mobile">Hợp tác liên kết</a></li>
+                              </ul></li>
+                        <li><a href=""class="nav-link-mobile">NGHIÊN CỨU KHOA HỌC</a>
+                            <ul class="list-sub-mobile">
+                                <li><a href="http://cse.tlu.edu.vn/cac-de-tai-du-an"class="sub-link-mobile">Các đề tài, dự án</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/thong-tin-seminar"class="sub-link-mobile">Thông tin seminar</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/cac-cong-trinh-cong-bo"class="sub-link-mobile">Công trình công bố</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/cac-phong-thi-nghiem"class="sub-link-mobile">Phòng thí nghiệm</a></li>
+                              </ul>
+                        </li>
+                        <li><a href=""class="nav-link-mobile">ĐÀO TẠO</a>
+                            <ul class="list-sub-mobile">
+                                <li><a href="http://cse.tlu.edu.vn/dao-tao-dai-hoc-chinh-quy"class="sub-link-mobile">Đào tạo đại học</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/dao-tao-sau-dai-hoc"class="sub-link-mobile">Đào tạo sau đại học</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/%c4%90%c3%a0o-t%e1%ba%a1o/Chu%e1%ba%a9n-%c4%91%e1%ba%a7u-ra"class="sub-link-mobile">Chuẩn đầu ra</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/dao-tao-tien-si"class="sub-link-mobile">Định hướng ngành nghề</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/mo-hinh-dao-tao"class="sub-link-mobile">Mô hình đào tạo</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/dao-tao/de-cuong-mon-hoc"class="sub-link-mobile">Đề cương môn học</a></li>
+                              </ul></li>
+                        <li><a href=""class="nav-link-mobile">BỘ MÔN-TRUNG TÂM</a>
+                            <ul class="list-sub-mobile">
+                                <li><a href="http://cse.tlu.edu.vn/cong-nghe-phan-mem"class="sub-link-mobile">CN phần mềm</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/he-thong-thong-tin"class="sub-link-mobile">Hệ thống thông tin</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/khoa-hoc-may-tinh"class="sub-link-mobile">Khoa học máy tính</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/ky-thuat-may-tinh-va-mang"class="sub-link-mobile">Kỹ thuật máy tính và mạng toán học</a></li>
+                                <li><a href="http://cse.tlu.edu.vn/B%e1%bb%99-m%c3%b4n-Trung-t%c3%a2m/Tin-h%e1%bb%8dc-v%c3%a0-k%e1%bb%b9-thu%e1%ba%adt-t%c3%adnh-to%c3%a1n"class="sub-link-mobile">Trung tâm tin học</a></li>
+                              </ul></li>
+                        <!-- <li><a href=""class="nav-link-mobile">SINH VIÊN</a>
+                            <ul class="list-sub-mobile">
+                                <li><a href="#"class="sub-link-mobile">Tài liệu sinh viên</a></li>
+                                <li><a href="#"class="sub-link-mobile">Tổ tư vấn học tập</a></li>
+                                <li><a href="#"class="sub-link-mobile">Biểu mẫu ĐATN</a></li>
+                                <li><a href="#"class="sub-link-mobile">Luận văn tốt nghiệp</a></li>
+                              </ul></li>
+                        <li><a href=""class="nav-link-mobile">TIN TỨC</a>
+                            <ul class="list-sub-mobile">
+                                <li><a href="#"class="sub-link-mobile">Sự kiện</a></li>
+                                <li><a href="#"class="sub-link-mobile">CSE trên báo</a></li>
+                                
+                              </ul></li>
+                        <li><a href=""class="nav-link-mobile">THÔNG BÁO</a>
+                            <ul class="list-sub-mobile">
+                                <li><a href="#"class="sub-link-mobile">Thông báo</a></li>
+                                <li><a href="#"class="sub-link-mobile">TB Đào tạo</a></li>
+                                <li><a href="#"class="sub-link-mobile">Nghiên cứu khoa học</a></li>
+                                <li><a href="#"class="sub-link-mobile">Tuyển dụng</a></li>
+                                <li><a href="#"class="sub-link-mobile">Học bổng</a></li>
+                                <li><a href="#"class="sub-link-mobile">Tuyển dụng khác</a></li>
+                              </ul></li>
+                        <li><a href=""class="nav-link-mobile">LIÊN HỆ</a></li> -->
+                        
+                    </ul>
+                </nav>
                     
                 </div>
                 <!-- <hr style="border-color: rgb(183, 183, 211);"> -->
@@ -261,7 +342,7 @@
                                              <i class="fas fa-arrow-circle-right " style="border: white;"></i>
                                          </span>   
                                         <!-- </span> -->
-                                        <span class="sr-only">Next</span>
+                                        <!-- <span class="sr-only">Next</span> -->
                                     </a>
                                    
                                 </div>
@@ -377,33 +458,33 @@
                     <div class="footer-top">
                       <div class="it-nav-footer">
                         <ul class="nav-footer-link">
-                          <li><a class="ui-link-white" href="">Giới thiệu</a></li>
-                          <li><a class="ui-link-white" href="">Logo của Khoa CNTT</a></li>
-                          <li><a class="ui-link-white" href="">Lời chào mừng</a></li>
-                          <li><a class="ui-link-white" href="">Tổ chức</a></li>
-                          <li><a class="ui-link-white" href="">Hợp tác liên kết</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/gioi-thieu">Giới thiệu</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/logo-cua-khoa">Logo của Khoa CNTT</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/loi-chao-mung">Lời chào mừng</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/co-cau-to-chuc">Tổ chức</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/hop-tac-quoc-te">Hợp tác liên kết</a></li>
                         </ul>
                         <ul class="nav-footer-link">
-                          <li><a class="ui-link-white" href="">Đào tạo</a></li>
-                          <li><a class="ui-link-white" href="">Mô hình đào tạo</a></li>
-                          <li><a class="ui-link-white" href="">Đào tạo đại học</a></li>
-                          <li><a class="ui-link-white" href="">Định hướng ngành nghề</a></li>
-                          <li><a class="ui-link-white" href="">Đào tạo sau đại học</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/dao-tao">Đào tạo</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/mo-hinh-dao-tao">Mô hình đào tạo</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/dao-tao-dai-hoc-chinh-quy">Đào tạo đại học</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/dao-tao-tien-si">Định hướng ngành nghề</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/dao-tao-sau-dai-hoc">Đào tạo sau đại học</a></li>
                         </ul>
                         <ul class="nav-footer-link">
-                          <li><a class="ui-link-white" href="">Nghiên cứu khoa học</a></li>
-                          <li><a class="ui-link-white" href="">Thông tin seminar</a></li>
-                          <li><a class="ui-link-white" href="">Các đề tài, dự án</a></li>
-                          <li><a class="ui-link-white" href="">Công trình công bố</a></li>
-                          <li><a class="ui-link-white" href="">Các phòng thí nghiệm</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/khoa-hoc-cong-nghe">Nghiên cứu khoa học</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/thong-tin-seminar">Thông tin seminar</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/cac-de-tai-du-an">Các đề tài, dự án</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/cac-cong-trinh-cong-bo">Công trình công bố</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/cac-phong-thi-nghiem">Các phòng thí nghiệm</a></li>
                         </ul>
                         <ul class="nav-footer-link">
-                          <li><a class="ui-link-white" href="">Công nghệ phần mềm</a></li>
-                          <li><a class="ui-link-white" href="">Hệ thống thông tin</a></li>
-                          <li><a class="ui-link-white" href="">Khoa học máy tính</a></li>
-                          <li><a class="ui-link-white" href="">Kỹ thuật máy tính và mạng</a></li>
-                          <li><a class="ui-link-white" href="">Toán học</a></li>
-                          <li><a class="ui-link-white" href="">Trung tâm học</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/cong-nghe-phan-mem">Công nghệ phần mềm</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/he-thong-thong-tin">Hệ thống thông tin</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/khoa-hoc-may-tinh">Khoa học máy tính</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/ky-thuat-may-tinh-va-mang">Kỹ thuật máy tính và mạng</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/bo-mon-toan-hoc">Toán học</a></li>
+                          <li><a class="ui-link-white" href="http://cse.tlu.edu.vn/trung-tam-tin-hoc">Trung tâm học</a></li>
                         </ul>
     
                       </div>
@@ -415,7 +496,7 @@
                         <br>
                         
                         Địa chỉ: nhà C1, Đại học Thủy lợi, 175 Tây Sơn, Đống Đa, Hà Nội. Điện thoại: (+84)-024 3 5632211. Email: 
-                        <a class="ui-link-white" style="text-decoration: none; color: white;" href="">vpkcntt@tlu.edu.vn</a>
+                        <a class="ui-link-white"  style="text-decoration: none; color: white;" href="http://cse.tlu.edu.vn/dao-tao/de-cuong-mon-hoc#">vpkcntt@tlu.edu.vn</a>
                       </p>
                     </div>               
                   </div>
@@ -425,6 +506,7 @@
         </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../PROJECT/CSE.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

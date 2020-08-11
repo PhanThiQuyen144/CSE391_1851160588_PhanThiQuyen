@@ -64,11 +64,24 @@
 // })
 
 
-// bar responsive-chưa xong
-// $(document).ready(function () {
-//     $("#respon-bar").click(function(){
-//         $(".navbar").slideToggle();
-//         $(".dropdown-menu a ").css("display","none");
-//     });
-//     $()
-// });
+// bar responsive
+$(document).ready(function () {
+    $("#respon-bar").click(function(){
+        $(".navbar-mobile").css("transform","translate(0%)");
+        // $(".navbar-mobile").slideToggle();
+        // $(".dropdown-menu a ").css("display","none");
+    });
+    $(".nav-mobile-close").click(function(){
+        $(".navbar-mobile").css("transform","translate(-100%)");
+    });
+    $("#search1").click(function(){
+        $(".search-mobile").css("display","block");
+        $(".search-mobile .search-frame").css("display","block");
+        $(".search-mobile .btn-close").css("display","block");
+    });
+    $(".btn-close").click(function(){
+        $(".search-mobile").css("display","none");
+        $(".search-mobile .search-frame").css("display","none");
+        $(".search-mobile .btn-close").css("display","none");
+    });
+});
