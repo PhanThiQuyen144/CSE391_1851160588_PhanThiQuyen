@@ -43,7 +43,7 @@
                     </ul>
                 </div>
                 <div class="search " >
-                    <input type="text" value="" placeholder="Tìm kiếm" class="fa-search hide-on " style="margin-left: 5%;" >
+                    <input type="text" value="" placeholder="Tìm kiếm" class="fa-search hide-on "id="inputsearch " style="margin-left: 5%;" >
                     <div id="search1"> <i class="fa fa-search text-secondary iconsearch" style="cursor: pointer;" aria-hidden="true"></i> </div> 
                     <!-- <input type="submit" value=""> -->
                 </div>
@@ -71,8 +71,15 @@
                     </div> 
                     <div class="title  ">
                         <!-- hide-on -->
-                       <nav class="navbar navbar-expand-sm navbar-light"  >
-                           <a class="homesp navbar-brand" href="http://cse.tlu.edu.vn">TRANG CHỦ</a>
+                       <nav class="navbar navbar-expand-sm navbar-light navbar1" style=" padding: 0px !important;" >
+                           <div class="collapse navbar-collapse" id="collapsibleNavId">
+                               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                   <li class="nav-item dropdown ">
+                                        <a class="homesp navbar-brand" href="http://cse.tlu.edu.vn">TRANG CHỦ</a>
+                                   </li>
+                               </ul>
+                           </div>
+                           
                            <!-- <button class="d-md-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                                aria-expanded="false" aria-label="Toggle navigation"></button> -->
                            <div class="collapse navbar-collapse" id="collapsibleNavId">
@@ -80,7 +87,7 @@
                                     <li class="nav-item dropdown">
                                        <a class="navbar-brand has-sub has-sub1" href="http://cse.tlu.edu.vn/gioi-thieu" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                        GIỚI THIỆU</a>
-                                       <div class="dropdown-menu nav-sub nav-sub1" aria-labelledby="dropdownId">
+                                       <div class="dropdown-menu nav-sub nav-sub1 open open-position" aria-labelledby="dropdownId">
                                            <a class="dropdown-item text-white" href="http://cse.tlu.edu.vn/logo-cua-khoa">Logo khoa CNTT</a>
                                            <a class="dropdown-item text-white" href="http://cse.tlu.edu.vn/loi-chao-mung">Lời chào mừng</a>
                                            <a class="dropdown-item text-white" href="http://cse.tlu.edu.vn/co-cau-to-chuc">Tổ chức</a>
@@ -182,6 +189,33 @@
                                </ul>
                            </div>
                        </nav>
+                       <!-- sdkjhsfkj -->
+                       <nav class="navbar navbar-expand-sm navbar-light navbar1" style=" padding: 0px !important;display: none;" >
+                           <div style=" padding: 0px !important; margin: 0px auto !important;" >
+                               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                    <li class="nav-item dropdown">
+                                       <a class="navbar-brand has-sub has-sub7" href="http://cse.tlu.edu.vn/tin-thong-bao" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THÔNG BÁO</a>
+                                       <div class="dropdown-menu nav-sub nav-sub7" aria-labelledby="dropdownId">
+                                            <a class="dropdown-item text-white" href="http://cse.tlu.edu.vn/thong-bao-sinh-vien">Thông báo</a>
+                                            <a class="dropdown-item text-white" href="http://cse.tlu.edu.vn/thong-bao-dao-tao">TB Đào tạo</a>
+                                            <a class="dropdown-item text-white" href="http://cse.tlu.edu.vn/thong-bao-nghien-cuu-khoa-hoc">Nghiên cứu khoa học</a>
+                                            <a class="dropdown-item text-white" href="http://cse.tlu.edu.vn/tuyen-dung">Tuyển dụng</a>
+                                            <a class="dropdown-item text-white" href="http://cse.tlu.edu.vn/thong-bao-hoc-bong">Học bổng</a>
+                                            <a class="dropdown-item text-white" href="http://cse.tlu.edu.vn/thong-bao-khac">Thông báo khác</a>
+                                       </div>
+                                   </li>
+                               </ul>
+                           </div>
+                           <div class="collapse navbar-collapse" id="collapsibleNavId3">
+                               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                    <li class="nav-item dropdown">
+                                       <a class="navbar-brand has-sub" href="http://cse.tlu.edu.vn/lien-he" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LIÊN HỆ</a>
+                                       
+                                   </li>
+                               </ul>
+                           </div>
+                       </nav>
+                       <!-- hgjkdhwekjr -->
                     </div>
                     <!--navbar-mobile  -->
                  <!-- <div class="nav-overlay">
@@ -330,19 +364,21 @@
                                         </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                        <!-- <span class="carousel-control-prev-icon  " aria-hidden="true" ></span>
-                                        <span class="sr-only">Previous</span> -->
-                                        <span>
+                                        <!-- <span class="carousel-control-prev-icon  " aria-hidden="true" > -->
+                                       
+                                        <span style=" background: no-repeat 50% / 100% 100%;display: inline-block;">
                                             <i class="fas fa-arrow-circle-left "></i>
+                                        <!-- </span> -->
                                         </span>
+                                         <span class="sr-only">Previous</span> 
                                     </a>
                                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                         <!-- <span class="carousel-control-next-icon  " aria-hidden="true" > -->
-                                         <span>
-                                             <i class="fas fa-arrow-circle-right " style="border: white;"></i>
+                                         <span style=" background: no-repeat 50% / 100% 100%;display: inline-block;">
+                                             <i class="fas fa-arrow-circle-right " ></i>
                                          </span>   
                                         <!-- </span> -->
-                                        <!-- <span class="sr-only">Next</span> -->
+                                        <span class="sr-only">Next</span>
                                     </a>
                                    
                                 </div>
