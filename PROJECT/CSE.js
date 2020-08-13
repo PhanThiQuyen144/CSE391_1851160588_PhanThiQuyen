@@ -92,4 +92,5 @@ $(document).ready(function () {
         $(".search-mobile .search-frame").css("display","none");
         $(".search-mobile .btn-close").css("display","none");
     });
+    
 });
